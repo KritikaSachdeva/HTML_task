@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width", initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+
+<body>
+  <h2><u>Contact Form</u></h2>
+  
+  <form>
+  Name:<br>
+  <input type="text" name="Firstname" /><br><br>
+  Email:<br>
+  <input type="text" name="mail" /> <br><br>
+  Gender:<br>
+   <input type = "radio" name = "Gender" value = "m" checked> Male
+         <input type = "radio" name = "Gender" value = "f"> Female
+		 <br><br>
+DOB: <br>
+<input type="date" name="bday" min="2000-01-02">
+<br><br>
+
+ Country:<br>
+ <select name="country">
+  <option value="1">Australia</option>
+  <option value="2">Africa</option>
+  <option value="3">India</option>
+  <option value="4">Pakistan</option>
+  <option value="5">Bangladesh</option>
+  <option value="6">China</option>s
+</select>
+  <br><br>
+  
+  How would you like us to contact you:<br>
+  <input type="checkbox" name="mail" value="1">E-mail<br>
+<input type="checkbox" name="phone number" value="2">Call<br>
+<input type="checkbox" name="msg" value="3">SMS<br>
+<input type="checkbox" name="post on address" value="4">Post on address
+<br><br>
+ Upload your scanned photo(Select a file): <input type="file" name="myFile" />
+<br>
+
+<input type="button" value="Click here to upload" onclick="alert('File uploaded')" />
+<br><br>
+Any relevant query:<br>
+  <textarea name="query" rows="5 cols="20">
+</textarea>
+
+<br><br>
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
